@@ -2,18 +2,10 @@ plugins {
     id 'java'
 }
 
-group = 'com.ap'
-version = '0.0.1-SNAPSHOT'
-
-repositories {
-    mavenCentral()
-}
-
 dependencies {
-    testImplementation platform('org.junit:junit-bom:5.9.1')
-    testImplementation 'org.junit.jupiter:junit-jupiter'
+    // Add specific dependencies for this subproject
+    // Common dependencies are inherited from the root project
 }
-
-test {
-    useJUnitPlatform()
+springBoot {
+    mainClass.set('com.ap.RestaurantDataApplication')  // Replace with the fully qualified name of your main class
 }

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/restaurant-data/SpringCourse-Restaurant.restaurant-data.main.iml" filepath="$PROJECT_DIR$/.idea/modules/restaurant-data/SpringCourse-Restaurant.restaurant-data.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/restaurant-web/SpringCourse-Restaurant.restaurant-web.main.iml" filepath="$PROJECT_DIR$/.idea/modules/restaurant-web/SpringCourse-Restaurant.restaurant-web.main.iml" />
     </modules>
   </component>
